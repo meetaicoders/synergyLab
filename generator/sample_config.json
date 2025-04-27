@@ -1,0 +1,61 @@
+{
+  "gpt-4": {
+    "model_name": "gpt-4",
+    "provider": "openai",
+    "temperature": 0.7,
+    "max_tokens": 1000,
+    "parameters": {
+      "top_p": 1,
+      "frequency_penalty": 0,
+      "presence_penalty": 0
+    }
+  },
+  "gpt-3.5-turbo": {
+    "model_name": "gpt-3.5-turbo",
+    "provider": "openai",
+    "temperature": 0.8,
+    "max_tokens": 800,
+    "parameters": {
+      "top_p": 1,
+      "frequency_penalty": 0,
+      "presence_penalty": 0
+    }
+  },
+  "claude-3-opus-20240229": {
+    "model_name": "claude-3-opus-20240229",
+    "provider": "anthropic",
+    "temperature": 0.5,
+    "max_tokens": 2000,
+    "parameters": {
+      "top_p": 0.9
+    }
+  },
+  "claude-3-sonnet-20240229": {
+    "model_name": "claude-3-sonnet-20240229",
+    "provider": "anthropic",
+    "temperature": 0.6,
+    "max_tokens": 1500,
+    "parameters": {
+      "top_p": 0.9
+    }
+  },
+  "mistral-large": {
+    "model_name": "mistral-large-latest",
+    "provider": "mistral",
+    "temperature": 0.7,
+    "max_tokens": 1000,
+    "parameters": {
+      "top_p": 0.9
+    }
+  },
+  "gemini-pro": {
+    "model_name": "gemini-pro",
+    "provider": "google",
+    "temperature": 0.7,
+    "max_tokens": 1200,
+    "parameters": {
+      "top_k": 40,
+      "top_p": 0.95
+    }
+  }
+}
